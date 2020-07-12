@@ -1,6 +1,5 @@
 import cv2
 import glob
-from math import log
 
 def main():
     size = (1920, 1080)
