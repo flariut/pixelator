@@ -37,7 +37,7 @@ def pixelator(size, fps, duration, output_path):
                 # Reduce the resolution
                 resized = cv2.resize(src, _res,
                                      interpolation = cv2.INTER_AREA)
-                # Back to 1080 to create the video frame
+                # Back to original resolution to create the video frame
                 frame = cv2.resize(resized, size,
                                    interpolation = cv2.INTER_AREA)
                 
